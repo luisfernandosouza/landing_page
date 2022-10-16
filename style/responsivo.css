@@ -1,0 +1,81 @@
+@media(max-width: 1330px){
+    #navopt3 {
+        display: none;
+    }
+
+    section > aside {
+        display: none;
+    }
+    
+
+}
+
+@media(max-width: 1200px){
+    #imagemartigo {
+        display: none;
+    }
+}
+
+@media(max-width: 713px){
+    #navopt2 {
+        display: none;
+    }
+
+    aside {
+        display: none;
+    }
+    
+    #section {
+        min-width: 524px;
+    }
+
+
+    section > div > a {
+        width: 240px;
+        height: 120px;
+    }
+}
+
+@media(max-width: 581px){
+    header {
+        padding: 10px;
+        transition: 0.5s;
+    }
+
+    nav {
+        display: none;
+    }
+
+    a#sobrenos {
+        margin-top: 80px;
+    }
+
+    #section {
+        min-width: 310px;
+    
+    }
+
+    #login {
+        padding-right: 40%;
+        padding-left: 20%;
+    }
+
+    section > div > a:hover{
+        padding-right: 0px;
+        padding-left: 0px;
+        color: black;
+        background-color: rgb(143, 143, 143);
+    }
+
+    section:hover {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    article {
+        background-color: white;
+        width: 310px;
+        transition: 0.5s;
+    }
+
+}
